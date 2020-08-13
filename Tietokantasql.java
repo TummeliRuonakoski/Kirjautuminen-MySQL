@@ -16,7 +16,7 @@ public class Tietokantasql {
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			this.con=DriverManager.getConnection(  
 					"jdbc:mysql://localhost:3306/salasana?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-                    "tummeli", "password");
+                    "...", "....");
 			return con;
 		}
 
